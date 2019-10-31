@@ -46,13 +46,13 @@ function Plot(width, height, id) {
 
   let canvas = document.getElementById(id);
   this.width  = width;
-	this.height = height;
+  this.height = height;
   
   canvasX=canvas.clientLeft;
   canvasY=canvas.clientTop;
 
   canvas.width  = this.width;
-	canvas.height = this.height;
+  canvas.height = this.height;
 
   const context = canvas.getContext("2d");
 
